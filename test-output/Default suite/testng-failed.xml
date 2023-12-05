@@ -5,7 +5,6 @@
     <classes>
       <class name="testcases.Tc_001_LogintoAdactin">
         <methods>
-          <include name="close"/>
           <include name="setup"/>
           <include name="Adactin_login"/>
         </methods>

@@ -14,25 +14,28 @@ public class LoginPage extends BasePage {
 
 //xpaths
 	
-	@FindBy(xpath="//input[@id='username']")
+//	@FindBy(xpath="//input[@id='username']")
+	@FindBy(xpath="//input[@name='username']")
 	WebElement Username;
 	
-	@FindBy(xpath="//input[@id='password']")
+	//@FindBy(xpath="//input[@id='password']")
+	@FindBy(xpath="//input[@name='password']")
 	WebElement Pswd;
 	
-	@FindBy(xpath="//input[@id='login']")
+	//@FindBy(xpath="//input[@id='login']")
+	@FindBy(xpath="//input[@name='login']")
 	WebElement btn_login;
 
 //Methods	
 
 public void setUser_name(String User_name)
 		{
-			Username.sendKeys("name");
+			Username.sendKeys(User_name);
 		}
 		
 	public void setpassword(String password )
 		{
-			Pswd.sendKeys("pswd");
+			Pswd.sendKeys(password);
 		}
 	
 	
