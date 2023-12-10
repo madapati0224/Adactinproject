@@ -183,3 +183,23 @@
 15:43:41.786 [main] INFO  testcases.Tc_001_LogintoAdactin - Enter the User_name
 15:43:41.919 [main] INFO  testcases.Tc_001_LogintoAdactin - Enter the password
 15:43:43.244 [main] INFO  testcases.Tc_001_LogintoAdactin - click on login
+16:35:54.870 [main] INFO  testcases.Tc_001_LogintoAdactin - Started execution for Tc_001_LogintoAdactin 
+16:35:57.382 [main] INFO  testcases.Tc_001_LogintoAdactin - Enter the User_name
+16:35:57.507 [main] INFO  testcases.Tc_001_LogintoAdactin - Enter the password
+16:35:59.503 [main] INFO  testcases.Tc_001_LogintoAdactin - click on login
+16:36:09.158 [main] INFO  testcases.Tc_001_LogintoAdactin - Started execution for Tc_001_LogintoAdactin 
+16:36:09.539 [main] INFO  testcases.Tc_001_LogintoAdactin - Enter the User_name
+16:36:09.668 [main] INFO  testcases.Tc_001_LogintoAdactin - Enter the password
+16:36:11.502 [main] INFO  testcases.Tc_001_LogintoAdactin - click on login
+16:11:49.241 [main] INFO  testcases.Tc_001_LogintoAdactin - Started execution for Tc_001_LogintoAdactin 
+16:11:50.393 [main] INFO  testcases.Tc_001_LogintoAdactin - Enter the User_name
+16:11:50.520 [main] INFO  testcases.Tc_001_LogintoAdactin - Enter the password
+16:11:51.720 [main] INFO  testcases.Tc_001_LogintoAdactin - click on login
+16:14:29.355 [TestNG-tests-1] INFO  testcases.Tc_001_LogintoAdactin - Started execution for Tc_001_LogintoAdactin 
+16:14:29.615 [TestNG-tests-1] INFO  testcases.Tc_001_LogintoAdactin - Enter the User_name
+16:14:29.768 [TestNG-tests-1] INFO  testcases.Tc_001_LogintoAdactin - Enter the password
+16:14:31.472 [TestNG-tests-1] INFO  testcases.Tc_001_LogintoAdactin - click on login
+16:14:47.173 [TestNG-tests-2] INFO  testcases.Tc_001_LogintoAdactin - Started execution for Tc_001_LogintoAdactin 
+16:14:48.441 [TestNG-tests-2] INFO  testcases.Tc_001_LogintoAdactin - Enter the User_name
+16:14:48.627 [TestNG-tests-2] INFO  testcases.Tc_001_LogintoAdactin - Enter the password
+16:14:50.147 [TestNG-tests-2] INFO  testcases.Tc_001_LogintoAdactin - click on login

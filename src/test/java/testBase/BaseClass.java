@@ -20,7 +20,7 @@ import org.testng.annotations.Parameters;
 
 public class BaseClass {
 	
-	public  WebDriver driver;
+	public static WebDriver driver;
 	public Logger logger ; //used to create step by step log
 	public ResourceBundle rb; //to enter data using config file
 
@@ -32,8 +32,8 @@ public class BaseClass {
 	@Parameters({"browser"})
 	public void setup(String br)
 	{
-		logger=LogManager.getLogger(this.getClass());
-		rb=ResourceBundle.getBundle("config1");
+		logger=LogManager.getLogger(this.getClass());//get test case name
+		rb=ResourceBundle.getBundle("config1");// read values from config.properties file
 		
 	if(br.equals("chrome"))
 		{

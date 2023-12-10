@@ -25,14 +25,15 @@ package utilities;
 		
 		public void onStart(ITestContext context)  //1 time should execute at begining
 		{
-			String timestamp =new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
+			String timestamp =new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());// Time stamp
 			repName="Test-Report-"+timestamp+".html";
 		//UI of the report
 			
 			Sparkreporter=new ExtentSparkReporter(".\\reports\\"+repName);//Location of the report to generate 
 			Sparkreporter.config().setDocumentTitle("Automation Testing"); //Title
 			Sparkreporter.config().setReportName("Functional Testing"); //Name of the Report
-			Sparkreporter.config().setTheme(Theme.STANDARD); //Theme
+			//Sparkreporter.config().setTheme(Theme.STANDARD); //Theme
+			Sparkreporter.config().setTheme(Theme.DARK); //Theme
 
 		//commom information to the Report
 			
